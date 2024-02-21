@@ -1,0 +1,84 @@
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  input[type="file"] {
+    margin-bottom: 20px;
+  }
+  
+  .playlist {
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  
+  .track {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    margin-bottom: 5px;
+  }
+  
+  .track-name {
+    cursor: pointer;
+  }
+  
+  .track.active {
+    background-color: #c0c0c0;
+  }
+  
+  .player {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    margin: 0 5px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  audio {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+
+  .delete{
+    background-color: red;
+  }
+
+
+  label{
+    padding: 10px 20px;
+    margin: 0 5px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: #fff;
+    margin-bottom: 20px;
+  }
